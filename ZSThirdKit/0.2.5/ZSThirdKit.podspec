@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
 
   s.source_files = "Classes/**/**/*"
 
-  s.dependency 'WechatOpenSDK','~> 1.8.4'
-  s.dependency 'WeiboSDK','~>3.1.3'
-  s.dependency 'ZSQQSDK', '~>0.0.0'
+  s.dependency 'WechatOpenSDK'
+  s.dependency 'WeiboSDK'
+  s.dependency 'ZSQQSDK'
 
   #s.framework = "CoreTelephony", "CoreGraphics", "SystemConfiguration", "Security"
   #s.libraries = "iconv", "sqlite3", "stdc++", "z"
